@@ -1,11 +1,12 @@
 //complete this code
+
 class Animal {
 	constructor(species){
-		this.species = species;
+		this._species = species;
 	}
 
 	get species(){
-		return this.species;
+		return this._species;
 	}
 
 	makeSound(){
@@ -30,8 +31,6 @@ class Dog extends Animal {
 		console.log("woof")
 	}
 }
-
-
 
 // Do not change the code below this line
 window.Animal = Animal;
